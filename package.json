@@ -15,7 +15,7 @@
   },
   "main": "base",
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "prepublish": "npm run build",
     "build": "npm run build:base && npm run build:style",
     "build:base": "echo module.exports=`js-yaml base.yml` > base.js",
     "build:style": "echo module.exports=`js-yaml style.yml` > style.js",
