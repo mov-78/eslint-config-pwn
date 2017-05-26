@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-pwn",
+  "version": "6.0.0",
+  "description": "Opinionated ESLint shareable config",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Pwn <hi@pwn.buzz>",
+  "devDependencies": {
+    "js-yaml": "~3.8.4"
+  },
+  "peerDependencies": {
+    "eslint": ">=3"
+  },
+  "main": "base",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "npm run build:base && npm run build:style",
+    "build:base": "echo module.exports=`js-yaml base.yml` > base.js",
+    "build:style": "echo module.exports=`js-yaml style.yml` > style.js",
+    "clean": "rm -f *.js"
+  },
+  "license": "MIT",
+  "repository": "pwnn/eslint-config-pwn"
+}
