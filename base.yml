@@ -87,9 +87,6 @@ rules:
 
     no-catch-shadow: error
     no-label-var: warn
-    no-shadow:
-        - warn
-        - builtinGlobals: true
     no-shadow-restricted-names: error
     no-undef-init: warn
     no-undefined: warn
