@@ -15,7 +15,6 @@ rules:
     eol-last: warn
     func-call-spacing: warn
     func-name-matching: warn
-    func-names: warn
     indent:
         - warn
         - 4
