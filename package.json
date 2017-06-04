@@ -10,9 +10,6 @@
     "devDependencies": {
         "js-yaml": "~3.8.4"
     },
-    "peerDependencies": {
-        "eslint": ">=3"
-    },
     "main": "base",
     "scripts": {
         "prepublish": "npm run build",
