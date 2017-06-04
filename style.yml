@@ -72,7 +72,8 @@ rules:
         - always
     space-before-function-paren:
         - warn
-        - never
+        - named: never
+          anonymous: always
     space-in-parens: warn
     space-infix-ops: warn
     space-unary-ops:
