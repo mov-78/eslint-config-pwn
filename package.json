@@ -13,12 +13,12 @@
     "peerDependencies": {
         "eslint": ">=3"
     },
+    "main": "base",
     "scripts": {
         "prepublish": "npm run build",
-        "build": "npm run build:base && npm run build:style",
-        "build:base": "echo module.exports=`js-yaml base.yml` > index.js",
-        "build:style": "echo module.exports=`js-yaml style.yml` > style.js",
-        "clean": "rm -f *.js"
+        "postpublish": "npm run clean",
+        "build": "for file in *.yml; do echo module.exports=`js-yaml ${file}` > ${file%.*}.js; done",
+        "clean": "for file in *.yml; do rm ${file%.*}.js; done"
     },
     "license": "MIT",
     "repository": "pwnn/eslint-config-pwn"
