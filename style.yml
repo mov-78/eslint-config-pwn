@@ -35,6 +35,7 @@ rules:
     no-plusplus:
         - warn
         - allowForLoopAfterthoughts: true
+    no-tabs: warn
     no-trailing-spaces: warn
     no-unneeded-ternary: warn
     no-whitespace-before-property: warn
