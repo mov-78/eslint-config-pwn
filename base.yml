@@ -4,6 +4,7 @@ rules:
 
     # POSSIBLE ERRORS
 
+    for-direction: error
     no-compare-neg-zero: error
     no-empty:
         - error
