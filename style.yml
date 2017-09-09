@@ -12,7 +12,9 @@ rules:
         - that
     eol-last: warn
     func-call-spacing: warn
-    func-name-matching: warn
+    func-names:
+        - warn
+        - as-needed
     indent:
         - warn
         - 4
@@ -49,9 +51,6 @@ rules:
         - warn
         - always
     operator-assignment: warn
-    operator-linebreak:
-        - warn
-        - before
     quote-props:
         - warn
         - as-needed

@@ -69,7 +69,10 @@ rules:
     no-sequences: error
     no-throw-literal: warn
     no-unmodified-loop-condition: error
-    no-unused-expressions: error
+    no-unused-expressions:
+        - error
+        - allowTernary: true
+          allowShortCircuit: true
     no-useless-call: warn
     no-useless-concat: warn
     no-useless-escape: warn
