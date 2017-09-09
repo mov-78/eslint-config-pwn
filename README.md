@@ -7,4 +7,5 @@ Opinionated ESLint shareable config
 extends:
     - pwn # base rules
     - pwn/style # stylistic rules
+    - pwn/ES6 # ES6 rules
 ```
