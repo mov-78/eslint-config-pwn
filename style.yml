@@ -88,4 +88,5 @@ rules:
         - words: true
           nonwords: false
     spaced-comment: error
+    switch-colon-spacing: error
     unicode-bom: error
