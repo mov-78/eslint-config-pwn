@@ -1,4 +1,7 @@
 rules:
+    array-bracket-newline:
+        - error
+        - multiline: true
     array-bracket-spacing: error
     array-element-newline:
         - error
