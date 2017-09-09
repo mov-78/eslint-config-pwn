@@ -1,3 +1,4 @@
+extends: eslint:recommended
 rules:
     arrow-body-style: error
     arrow-parens: error
