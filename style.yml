@@ -68,6 +68,9 @@ rules:
         - error
         - before: false
           after: true
+    semi-style:
+        - error
+        - first
     space-before-blocks:
         - error
         - always
