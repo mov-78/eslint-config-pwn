@@ -21,6 +21,7 @@ rules:
     func-names:
         - error
         - as-needed
+    function-paren-newline: error
     indent:
         - error
         - 4
