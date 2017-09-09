@@ -18,7 +18,7 @@
         "prepublish": "npm run build",
         "postpublish": "npm run clean",
         "build": "for file in *.yml; do echo module.exports=`js-yaml ${file}` > ${file%.*}.js; done",
-        "clean": "for file in *.yml; do rm ${file%.*}.js; done"
+        "clean": "for file in *.yml; do rm -f ${file%.*}.js; done"
     },
     "license": "MIT",
     "repository": "pwnn/eslint-config-pwn"
