@@ -3,7 +3,11 @@ rules:
     array-bracket-newline:
         - error
         - multiline: true
-    array-bracket-spacing: error
+    array-bracket-spacing:
+        - error
+        - always
+        - objectsInArrays: false
+          arraysInArrays: false
     array-element-newline:
         - error
         - multiline: true
