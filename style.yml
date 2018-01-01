@@ -81,8 +81,7 @@ rules:
         - always
     space-before-function-paren:
         - error
-        - named: never
-          anonymous: always
+        - always
     space-in-parens: error
     space-infix-ops: error
     space-unary-ops:
