@@ -23,9 +23,6 @@ rules:
         - that
     eol-last: error
     func-call-spacing: error
-    func-names:
-        - error
-        - as-needed
     function-paren-newline: error
     indent:
         - error
