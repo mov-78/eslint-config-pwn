@@ -8,9 +8,6 @@ rules:
         - always
         - objectsInArrays: false
           arraysInArrays: false
-    array-element-newline:
-        - error
-        - multiline: true
     block-spacing: error
     brace-style: error
     camelcase: error
