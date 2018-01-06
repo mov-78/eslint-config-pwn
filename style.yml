@@ -64,7 +64,6 @@ rules:
     quote-props:
         - error
         - as-needed
-        - keywords: true
     quotes:
         - error
         - single
